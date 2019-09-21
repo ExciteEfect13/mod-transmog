@@ -39,9 +39,14 @@ git clone https://github.com/azerothcore/mod-transmog.git
 
 or you can manually [download the module](https://github.com/azerothcore/mod-transmog/archive/master.zip), unzip the Transmog folder and place it under the `azerothcore/modules` directory.
 
-### 2) Re-run cmake and launch a clean build of AzerothCore
+### 2) Navigate in `modules` open folder data/SQL/db-world and import `trasm_world_NPC.sql` and `trasm_world_texts.sql` in your base.
+
+### 3) Navigate in `modules` open folder data/SQL/db-characters and import `trasmorg.sql` in your base.
+
+### 4) Re-run cmake and launch a clean build of AzerothCore
 
 **That's it.**
+
 
 ### (Optional) Edit module configuration
 
